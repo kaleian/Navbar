@@ -33,3 +33,7 @@ font-weight: 500;
 margin-left: 30px ;
 margin-right: 25px;
 }
+.navbar a:hover,
+.navbar a:active{
+    color: rgb(168, 201, 218);
+}
