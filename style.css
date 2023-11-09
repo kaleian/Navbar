@@ -37,6 +37,10 @@ margin-right: 25px;
 .navbar a:active{
     color: rgb(168, 201, 218);
 }
+.dropdown{
+    border-radius: 5px;
+   margin-top: 25px;
+}
 ul {
     list-style: none;
 }
@@ -44,27 +48,30 @@ ul {
 ul li {
     display: inline-block;
     position: relative;
+  
 }
 
 ul li a {
     display: block;
     padding: 13px 22px;
     color: #FFF;
-    text-decoration: none;
-    text-align: center;
     font-size: 20px;
+      list-style-type:circle;
+    
 }
 
 ul li ul.dropdown li {
     display: block;
+    list-style: circle;
+    
 }
 
 ul li ul.dropdown {
-    width: 100%;
+    width: 140%;
     background: rgb(21, 51, 117);
     position: absolute;
-    z-index: 999;
     display: none;
+    text-align: left;
 }
 
 ul li a:hover {
